@@ -1,10 +1,12 @@
 # moodle-atto_ruby
 [Ruby][1] support for Atto! This plugin contains an Atto toolbar button that simplifies annotating text with phonetic information - select some text, click the button and add the pronunciation of the text in question.
 
-Requires [MDL-50868][3] integrated into your Moodle install, a patch currently up for peer review for integration into 2.8, 2.9 and 3.0. At present, Moodle 2.7 and prior are no longer getting non-critical bug requests so if you want to use this plugin, request a backport or do it yourself :)
+Requires [MDL-50868][3] integrated into your Moodle install; the exact versions are listed in the requirements section below. At present, Moodle 2.7 and prior are no longer getting non-critical bug requests so if you want to use this plugin, request a backport or do it yourself :)
 
 ## Requirements
-* Moodle 2.8.7+
+* Moodle 2.8: 2.8.7+ (Build: 20150730)
+* Moodle 2.9: 2.9.1+ (Build: 20150730)
+* Moodle 3.0+: any version
 
 ## Quick install
 1. Put this entire directory at PATHTOMOODLE/lib/editor/atto/plugins/ruby
